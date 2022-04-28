@@ -1,7 +1,8 @@
-'''
+"""
 Tic-Tac-Toe
 Author: Marcus Blanc
-'''
+"""
+
 
 def main():
     player = next_player("")
@@ -45,7 +46,7 @@ def has_winner(board):
             board[2] == board[4] == board[6])
 
 def make_move(player, board):
-    square = int(input(f"{player}'s turn to choose a square (1-9): "))
+    square = int(input(f"{player}'s please pick a square between (1-9): "))
     board[square - 1] = player
 
 def next_player(current):
