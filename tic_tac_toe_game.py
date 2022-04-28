@@ -33,7 +33,7 @@ def is_a_draw(board):
     for square in range(9):
         if board[square] != "x" and board[square] != "o":
             return False
-    return True 
+    return True
     
 def has_winner(board):
     return (board[0] == board[1] == board[2] or
