@@ -11,7 +11,7 @@ def instructions():
  Welcome to the greatest intellectual challenge
  of all time: Tic-Tac-Toe.
  You will make your move known by entering
- a number, 0 - 8. The number
+ a number, 0 - 8. And the number
  will correspond to the board position as illustrated:
  0 | 1 | 2
  ---------
